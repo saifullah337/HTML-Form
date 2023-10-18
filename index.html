@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+</head>
+<style>
+    .now{
+        color: white;
+        background-color: black;
+    }
+</style>
+<body>
+    <h1> Simple HTML Form</h1>
+    <form action="backened.php">
+        <label for="Name">Name</label>
+        <div>
+            <input type="Name" name="myname" id="Name">
+        </div>
+        <br>
+        <label for="Father Name">Father Name</label>
+        <div>
+            <input type="fathername" name="Myfathername" id="Father Name">
+        </div>
+        <br>
+        <label for="Email id">Email id </label>
+        <div>
+            <input type="Emailid" name="Myemailid" id="Email id">
+        </div>
+        <br>
+        <label for="Address">Address</label>
+        <div>
+            <input type="Address" name="Myaddress" id="Address">
+        </div>
+        <br>
+        <label for="Select Gender">Select Gender</label>
+        <div>
+            <div>
+                <label for="Male">Male</label>
+                <input type="radio" name="myradio" id="Male">
+                <label for="Female">Female</label>
+                <input type="radio" name="myradio" id="Female">
+                <label for="other">other</label>
+                <input type="radio" name="myradio" id="other">
+            </div>
+        </div>
+        <br>
+        <label for="Date">Date</label>
+        <input type="Date" name="mydate" id="Date">
+        <label for="Tiem">Time</label>
+        <input type="Time" name="mytime" id="Time">
+        <br>
+        <br>
+        <div>
+            <label for="checkbox">Are you Eligible</label>
+            <input type="Checkbox" name="mycheckbox" id="checkbox">
+        </div>
+        <br>
+        <div>
+            <input type="submit" value ="Submit Now" class="now">
+            <input type="Reset" value = "Reset Now" class="now">
+</body>
+
+</html>
